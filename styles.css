@@ -51,20 +51,38 @@ li {
 	text-decoration: none;
 	color: #FFFFFF;
 	line-height: 200%;
+	padding-left: 80px;
 }
 
 #jumbotron2 {
 	background-color: #0099FF;
 	width: 100%;
-	height: 20%;
+	height: 337px;
 }
 
 #jumbotron3 {
+	position: relative;
+	background-color:#00FFFF;
 	width: 100%;
 	height: 337px;
 }
 
+#positionLeft {
+	position: absolute;
+	top: 107px;
+	left:25px;
+}
+
+#positionRight {
+	position: absolute;
+	top: 107px;
+	left: 1221px;
+}
+
 #jumbotron3 a {
+	position: absolute;
+	top: 157px;
+	left: 278px;
 	text-align: center;
 	text-decoration: none;
 	background-color: #0099FF;
@@ -90,10 +108,20 @@ li {
 }
 
 #web_design {
+	width: 33%;
 	float:left;
+	margin-top: 35px;
+	margin-left: 11px;
 }
 
 #web_apps {
+	width: 33%;
+	float: left;
+	margin-top: 35px;
+}
+
+#iconoclast {
+	width: 33%;
 	float: left;
 }
 
@@ -105,9 +133,10 @@ li {
 #mailSquare {
 	float: left;
 	background-color: #33CCFF;
+	background: url("http://tse3.mm.bing.net/th?id=OIP.M06f19b5e0d8f0d45ee1fe227494e83c5H0&pid=15.1") no-repeat center center fixed; 
 	width: 100px;
 	height: 100px;
-	margin-left: 260px;
+	margin-left: 280px;
 	margin-right: 95px;
 	margin-top:30px;
 }
@@ -115,20 +144,22 @@ li {
 #fbSquare {
 	float: left;
 	background-color: #33CCFF;
+	background: url("http://tse3.mm.bing.net/th?id=OIP.M06f19b5e0d8f0d45ee1fe227494e83c5H0&pid=15.1") no-repeat center center fixed; 
 	width: 100px;
 	height: 100px;
-	margin-left: 95px;
-	margin-right: 95px;
+	margin-left: 85px;
+	margin-right: 85px;
 	margin-top:30px;
 }
 
 #twitterSquare {
 	float: left;
 	background-color: #33CCFF;
+	background: url("http://tse3.mm.bing.net/th?id=OIP.M06f19b5e0d8f0d45ee1fe227494e83c5H0&pid=15.1") no-repeat center center fixed; 
 	width: 100px;
 	height: 100px;
-	margin-left: 95px;
-	margin-right: 95px;
+	margin-left: 85px;
+	margin-right: 85px;
 	margin-top:30px;
 }
 
@@ -145,4 +176,42 @@ li {
 #footer {
 	font-weight: lighter;
 	font-size: 14px;
+}
+
+#design {
+	font-size: 14px; 	
+}
+
+#apps {
+	font-size: 14px; 	
+}
+
+#menuIcon {
+	margin: 50px;
+}
+
+#para {
+	color: black;
+	position: absolute;
+	top:127px;
+	left:200px;
+}
+
+.jc-logo {
+  background: rgba(0, 0, 0, 0) url("http://jobcard.zensar.com/eJobCard/pages/images/logo.png") no-repeat scroll left center;
+  display: block;
+  height: 57px;
+  margin-top: 25px;
+  width: 185px;
+}
+
+#jclogo {
+	position: absolute !important;
+	top: 32px !important;
+}
+
+#jumbotron3 img {
+	position: absolute;
+	top: 42px;
+	right: 71px;
 }
