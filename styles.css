@@ -11,13 +11,6 @@ body {
   	color: #FFFFFF;
 }
 
-.zensar-logo {
-    background: rgba(0, 0, 0, 0) url("images/zensar-logo.png") no-repeat scroll left center;
-    display: block;
-    height: 64px;
-    margin-left: 10px;
-    width: 119px;
-}
 
 li {
 	list-style: none;
